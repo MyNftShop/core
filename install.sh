@@ -199,14 +199,14 @@ fi
 
 success "Installed system updates!"
 
-heading "Installing ARK Core..."
+heading "Installing Tur Core..."
 
 yarn global add @arkecosystem/core
 echo 'export PATH=$(yarn global bin):$PATH' >> ~/.bashrc
 export PATH=$(yarn global bin):$PATH
 ark config:publish
 
-success "Installed ARK Core!"
+success "Installed Tur Core!"
 
 # setup postgres username, password and database
 read -p "Would you like to configure the database? [y/N]: " choice
