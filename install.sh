@@ -203,7 +203,7 @@ heading "Installing Tur Core..."
 
 shopt -s expand_aliases
 alias ark="$HOME/core-bridgechain/packages/core/bin/run"
-echo 'alias tgic="$HOME/core-bridgechain/packages/core/bin/run"' >> ~/.bashrc
+echo 'alias turchian="$HOME/core-bridgechain/packages/core/bin/run"' >> ~/.bashrc
 
 rm -rf "$HOME/core-bridgechain"
 git clone "https://github.com/TURchain/core" "$HOME/core-bridgechain" || FAILED="Y"
